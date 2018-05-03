@@ -1,0 +1,40 @@
+{
+  "name": "alumno",
+  "plural": "alumnos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "github": {
+      "type": "string",
+      "required": true
+    },
+    "foto": {
+      "type": "string",
+      "required": true
+    },
+    "musica": {
+      "type": "string"
+    },
+    "peliculas": {
+      "type": [
+        "string"
+      ]
+    },
+    "social": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
