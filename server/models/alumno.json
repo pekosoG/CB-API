@@ -29,8 +29,13 @@
     },
     "social": {
       "type": [
-        "object"
+        "string"
       ]
+    },
+    "bio":{
+      "type":"string",
+      "required":true,
+      "default":"Hola, aun no me ponen la biografia en mi perfil... burlense de mi (:"
     }
   },
   "validations": [],
